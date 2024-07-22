@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.container-sm {
+  background-color: white;
+  height: 80vh;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 10em;
+  text-align: center;
+  display: flex;
+  box-shadow: 4px 4px 4px 4px rgb(83, 83, 83);
+}
+
+.carta3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: rotate(180deg);
+}
+
+.carta2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
